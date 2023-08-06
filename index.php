@@ -15,14 +15,14 @@
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img class="d-block w-100" style="height: 400px;" src="https://housedesignbd.com/wp-content/uploads/2022/08/Brithday-set-01.jpg" alt="First slide">
+                      <img class="d-block w-100" style="height: 400px;" src="https://wallpapercave.com/wp/wp7488447.jpg" alt="First slide">
                       <div class="carousel-caption d-none d-md-block">
                           <h2>Book your favourite event</h2>
                           <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, amet molestias eius, mollitia nemo tenetur!</p>
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" style="height: 400px;" src="https://www.jayandievents.com/wp-content/uploads/2021/02/Grosvenor-House-Great-Room-Reception-Greek-87.jpg" alt="Second slide">
+                      <img class="d-block w-100" style="height: 400px;" src="https://housedesignbd.com/wp-content/uploads/2022/08/Brithday-set-01.jpg" alt="Second slide">
                       <div class="carousel-caption d-none d-md-block">
                           <h2>Book your favourite event</h2>
                           <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, amet molestias eius, mollitia nemo tenetur!</p>

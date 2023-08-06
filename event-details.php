@@ -43,7 +43,7 @@
                             <br>
                             <div>Event Location: <?php echo $data->location; ?></div>
                             <div>Date & Time: <?php echo $data->date.' '.$data->time; ?></div> <br>
-                            <a href="#" class="btn text-white" style="background: #e501b4;">Book Now</a>
+                            <a href="event-booking-form.php" class="btn text-white" style="background: #e501b4;">Book Now</a>
                         </div>
 
                         </div>

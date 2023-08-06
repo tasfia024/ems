@@ -110,7 +110,7 @@
             }
 
             // Check file size
-            if ($file["size"] > 500000) {
+            if ($file["size"] > 5000000) {
                 $msg = '<div class="alert alert-danger"><strong> Sorry!</strong> your file is too large!</div>';
                 $dataReturn['message'] = $msg;
                 $dataReturn['success'] = false;

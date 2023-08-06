@@ -6,13 +6,12 @@
  	$event = new Event();
  ?>
 
+
 <?php
     if(!isset($_GET['id']) || $_GET['id'] == NULL){
         echo "<script>window.location = 'event-list.php'; </script>";
     }else{
         $id = $_GET['id'];
-        $result = $event->getEventDataById($id);
-        $data = $result->fetch_object();
     }
 ?>
 
@@ -22,6 +21,15 @@
         $eventMsg = $event->eventUpdate($id, $_POST);
  	}
  ?>
+
+
+<?php
+    if ($id) {
+        $id = $_GET['id'];
+        $result = $event->getEventDataById($id);
+        $data = $result->fetch_object();
+    }
+?>
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
         <!-- Main content -->

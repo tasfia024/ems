@@ -1,30 +1,15 @@
 <?php
 	include 'layout/header.php';
-    include 'lib/Event.php';
-    Session:: checkSession();
  ?>
 
-<?php 
- 	$event = new Event();
- 	if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['event'])) {
-        $eventMsg = $event->eventStore($_POST);
- 	}
- ?>
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
         <!-- Main content -->
         <br>
         <div class="content">
             <div class="container">
-                <?php
-                  if (isset($eventMsg)) {
-                    echo $eventMsg;
-                  }
-                ?>
                 <div class="col-md-12 order-md-1">
-                    <h4 class="mb-3 w-75 float-left">Add Event</h4>
-                    <a href="admin-dashboard.php" class="btn btn-warning btn-md px-3 float-right" type="button">Back</a>
-
+                    <h4 class="mb-3 w-75 float-left">Event Booking Form</h4>
                     <div class="card w-100">
                         <div class="card-body">
                             <form class="needs-validation" novalidate action="" method="post" enctype="multipart/form-data">
@@ -82,7 +67,7 @@
             
                                 <div class="float-right">
                                     <a href="admin-dashboard.php" class="btn btn-danger btn-md px-3" type="button">Cancel</a>
-                                    <button name="event" class="btn btn-success btn-md px-3" type="submit">Save</button>
+                                    <button name="event" class="btn btn-success btn-md px-3" type="submit">Submit</button>
                                 </div>
                                     
 
